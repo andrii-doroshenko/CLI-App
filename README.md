@@ -24,7 +24,7 @@ The application supports the following command-line arguments:
 
 # Get and display the entire contact list in the form of a table (console.table)
 
-![node index.js --action list](https://monosnap.com/file/8KB0nSPfqC5nlBHvsWbJ2ifWs15h5u)
+![node index.js --action list](https://raw.githubusercontent.com/andrii-doroshenko/CLI-App/master/assets/contact-list.gif)
 
 # Get contact by id - output contact object to console or null if contact with such id does not exist.
 
