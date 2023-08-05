@@ -13,8 +13,12 @@ This is a simple command-line application (CLI) built using the `commander 11.0.
    cd CLI-App
 
 4. Install the dependencies:
-   <code>npm install or yarn install</code>
-   > install nano.id varsion 3.3.4
+
+   ```
+   npm install or yarn install
+   ```
+
+   > install nano.id version 3.3.4
 
 ## Usage
 
@@ -22,22 +26,34 @@ The application supports the following command-line arguments:
 
 ## Get and display the entire contact list in the form of a table (console.table)
 
-<code>node index.js --action list</code>
+```
+node index.js --action list
+```
+
 ![action list image](img/actionList.png)
 
 ## Get contact by id - output contact object to console or null if contact with such id does not exist.
 
-<code>node index.js -a get -i 05olLMgyVQdWRwgKfg5J6</code>
+```
+node index.js -a get -i 05olLMgyVQdWRwgKfg5J6
+```
+
 ![action find by id image](img/action-get-by-id.png)
 
 ## Add a contact and display the created contact in the console
 
-<code>node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22</code>
+```
+node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22
+```
+
 ![action add image](img/action-add.png)
 
 ## Delete the contact and display the deleted contact in the console or null if the contact with this id does not exist.
 
-<code>node index.js -a remove -i qdggE76Jtbfd9eWJHrssH</code>
+```
+node index.js -a remove -i qdggE76Jtbfd9eWJHrssH
+```
+
 ![action remove image](img/action-remove.png)
 
 ## If the contact doesn't exist
